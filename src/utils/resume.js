@@ -20,8 +20,8 @@ export default {
     {
       tag: 'React',
       vid: '',
-      image: '../Assets/Images/bg.jpg',
-      title: './Aljazeera clone',
+      image: './aljazeera.png',
+      title: 'Aljazeera clone',
       caption: 'Aljaeera is arabic news website.',
       description:
         'Made this clone of website named aljazeera which is a website of arabic news channel funded by qatar government. Made this clone in the build week of masai school with technologies like react , redux and css.',
