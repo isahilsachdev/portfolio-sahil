@@ -1,0 +1,44 @@
+.about__text {
+  color: darkslategray !important ;
+  font-size: 16px !important ;
+  line-height: 22px !important ;
+  white-space: pre-line !important ;
+}
+
+.resume__timeline .timeline__content .timeline__title {
+  font-size: 16px !important ;
+  font-weight: 500 !important ;
+}
+
+.resume__timeline .timeline__content .timeline__date {
+  color: darkslategray;
+}
+.resume__timeline .timeline__content .timeline__description {
+  color: gray;
+  font-size: small;
+  margin-top: 6px;
+}
+
+/* pro */
+.pro {
+  height: 200px;
+  width: 200px;
+  justify-content: center;
+  align-items: center;
+}
+.pro .pro__image {
+  width: 10rem;
+  margin-left: 42px;
+}
+.pro .pro__name {
+  text-align: center;
+  font-weight: 500px !important ;
+}
+.pro .pro__description {
+  text-align: center;
+  color: #989898;
+}
+.pro .pro__div__image {
+  width: 100%;
+  margin-bottom: 10px;
+}

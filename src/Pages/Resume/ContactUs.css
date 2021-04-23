@@ -1,0 +1,24 @@
+.custom__btn {
+  background-color: #ffc500 !important ;
+  padding: 1px 10px !important ;
+  border: 0 !important ;
+  margin-top: 15px;
+  min-width: 100px !important ;
+  width: fit-content;
+  font-size: 10px !important ;
+  font-weight: 500 !important ;
+  border-radius: 50px !important ;
+  outline: none !important ;
+  line-height: 25px !important ;
+}
+.custom__btn .custom__btn__input {
+  text-decoration: none !important ;
+  background-color: #ffc500 !important ;
+  border: none !important ;
+  outline: none !important ;
+}
+
+.custom__btn .custom__btn__icon {
+  font-size: 10px;
+  padding-top: -10px;
+}

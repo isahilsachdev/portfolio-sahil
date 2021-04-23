@@ -1,0 +1,53 @@
+.timeline {
+  padding: 0 !important;
+}
+
+/* for header or big dot of timeline */
+.timeline .timeline__header {
+  padding-top: 8px;
+  font-weight: 600 !important ;
+}
+
+.timeline .timeline__first {
+  min-height: 80px !important ;
+}
+
+.timeline .MuiTimelineItem-root {
+  min-height: 0px;
+}
+
+.timeline .MuiTimelineItem-missingOppositeContent:before {
+  display: none;
+}
+
+.timeline .timeline__dot__header {
+  color: black !important;
+  background-color: #ffc500 !important;
+  font-size: small !important;
+  padding: 12px !important;
+}
+/* remaining timeline  */
+
+.timeline .timeline__dot {
+  color: black !important;
+  border-color: #ffc500 !important;
+  padding: 2px !important;
+}
+
+.timeline .MuiTimelineConnector-root {
+  background-color: #eee !important ;
+}
+
+.timeline .timeline__dot__header > .MuiSvgIcon-root {
+  font-size: 20px;
+  color: darkslategray;
+}
+
+.timeline .separator__padding {
+  padding-left: 18px !important;
+}
+
+.timeline .timeline__content {
+  padding-top: 0px !important;
+  margin-bottom: 20px;
+}

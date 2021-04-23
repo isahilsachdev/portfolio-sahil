@@ -1,0 +1,93 @@
+/* tabs */
+
+.customTabs .active {
+  color: #ffc500 !important  ;
+}
+.customTabs .customTabs__item {
+  padding: 0px !important ;
+  min-width: 0px !important ;
+  margin-right: 20px !important ;
+  text-transform: inherit !important ;
+  font-size: 16px !important ;
+  font-weight: 400 !important ;
+  outline-width: 0px !important ;
+}
+
+/* cards */
+.customCard {
+  height: 100%;
+  max-width: 350px;
+  box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.13) !important ;
+  -webkit-box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.13) !important ;
+  border-radius: 5px;
+  overflow: hidden;
+  outline-width: 0px !important ;
+}
+.customCard .customCard__image {
+  height: 140px;
+}
+.customCard .customCard__title {
+  font-weight: 500;
+}
+.customCard .customCard__caption {
+  color: gray !important ;
+  font-weight: 400;
+}
+/* dialog */
+/* .projectDialog {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 800px;
+} */
+.projectDialog .projectDialog__image,
+.projectDialog .projectDialog__vid {
+  max-height: 300px;
+  width: 100%;
+  object-fit: cover;
+  object-position: center center;
+}
+
+.projectDialog .projectDialog__description {
+  margin-top: 10px !important;
+}
+.projectDialog .projectDialog__actions {
+  justify-content: center !important ;
+  margin-bottom: 10px;
+}
+.projectDialog .projectDialog__icon {
+  color: darkslategray;
+  margin: 0px 12px;
+  cursor: pointer;
+}
+
+/* skills */
+
+.skills {
+  /* width: 45%; */
+  padding: 4%;
+}
+
+/* pro */
+.pro {
+  height: 200px;
+  width: 200px;
+  justify-content: center;
+  align-items: center;
+}
+.pro .pro__image {
+  width: 10rem;
+  margin-left: 42px;
+}
+.pro .pro__name {
+  text-align: center;
+  font-weight: 500px !important ;
+}
+.pro .pro__description {
+  text-align: center;
+  color: #989898;
+}
+.pro .pro__div__image {
+  width: 100%;
+  margin-bottom: 10px;
+}
