@@ -60,7 +60,7 @@ const Header = (props) => {
           {Object.keys(resume.socials).map((key) => (
             <a href={resume.socials[key].link}>{resume.socials[key].icon}</a>
           ))}
-          <CustomButton text='Contact Me' icon={<Telegram />} />
+          {/* <CustomButton text='Contact Me' icon={<Telegram />} /> */}
         </div>
       </Navbar.Collapse>
     </Navbar>
