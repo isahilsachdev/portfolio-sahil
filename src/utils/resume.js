@@ -19,7 +19,7 @@ export default {
   projects: [
     {
       tag: 'React',
-      vid: '',
+      vid: './aljazeera.mp4',
       image: './aljazeera.png',
       title: 'Aljazeera clone',
       caption: 'Aljaeera is arabic news website.',
