@@ -21,7 +21,7 @@
   position: relative;
   margin: 10px 0;
   height: 23px;
-  width: 300px;
+  max-width: 270px;
 }
 
 .progress-done {

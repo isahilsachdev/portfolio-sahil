@@ -145,87 +145,92 @@ const Portfolio = () => {
         </DialogActions>
       </Dialog>
       {/* proficiency */}
-      <Grid container className='section pb_45 pt_45 top_30 '>
+      <Grid container className='section pb_45 pt_45 top_30 mb_30 '>
         <Grid item className='section__title mb_30'>
           <span></span>
           <h6 className='section__title__text'>Proficiency</h6>
         </Grid>
-        <Grid item xs={12}>
-          <Grid container>
-            {resume.proficiency.map((pro) => (
-              <Grid item xs={12} sm={6} md={3}>
-                <div className='pro container_shadow '>
-                  <div className='pro__div__image  '>
-                    <img
-                      src={pro.image}
-                      alt='proficiency'
-                      className='pro__image'
-                    />
-                  </div>
-                  <Typography variant='h5' className='pro__name'>
-                    {pro.name}
-                  </Typography>
-                  <Typography className='pro__description' variant='body2'>
-                    {pro.description}
-                  </Typography>
+        {/* <Grid item> */}
+        <Grid container xs={12}>
+          {resume.proficiency.map((pro) => (
+            <Grid item xs={12} sm={6} lg={3} spacing={2}>
+              <div className='pro container_shadow '>
+                <div className='pro__div__image  '>
+                  <img
+                    src={pro.image}
+                    alt='proficiency'
+                    className='pro__image'
+                  />
                 </div>
-              </Grid>
-            ))}
-          </Grid>
+                <Typography variant='h5' className='pro__name'>
+                  {pro.name}
+                </Typography>
+                <Typography className='pro__description' variant='body2'>
+                  {pro.description}
+                </Typography>
+              </div>
+            </Grid>
+          ))}
         </Grid>
+        {/* </Grid> */}
       </Grid>
       {/* skills */}
       <Grid container>
-        <Grid item className='skills container_shadow'>
+        <Grid xs={8} sm={8} lg={6} item className='skills container_shadow'>
           <Typography className='skills__name mb_30 ' variant='h3'>
             TECH SKILLS
           </Typography>
-          <Grid>
-            <h3>• React </h3>
-            <Progress done='80' />
-          </Grid>
-          <Grid>
-            <h3>• JavaScript</h3>
-            <Progress done='90' />
-          </Grid>
-          <Grid>
-            <h3>• HTML5 • CSS3 </h3>
-            <Progress done='70' />
-          </Grid>
-          <Grid>
-            <h3>• NodeJs • ExpressJs </h3>
-            <Progress done='40' />
-          </Grid>
-          <Grid>
-            <h3>• MongoDB • MySQl </h3>
-            <Progress done='50' />
+          <Grid container spacing={2}>
+            <Grid xs={12}>
+              <h3>• React </h3>
+              <Progress done='80' />
+            </Grid>
+            <Grid xs={12} sm={12} lg={12}>
+              <h3>• JavaScript</h3>
+              <Progress done='90' />
+            </Grid>
+            <Grid xs={12} sm={12} lg={12}>
+              <h3>• HTML5 • CSS3 </h3>
+              <Progress done='70' />
+            </Grid>
+            <Grid xs={12} sm={12} lg={12}>
+              <h3>• NodeJs • ExpressJs </h3>
+              <Progress done='40' />
+            </Grid>
+            <Grid xs={12} sm={12} lg={12}>
+              <h3>• MongoDB • MySQl </h3>
+              <Progress done='50' />
+            </Grid>
           </Grid>
         </Grid>
         {/* soft skills */}
 
-        <Grid item className='skills container_shadow'>
+        <Grid xs={8} sm={8} lg={6} item className='skills container_shadow'>
           <Typography className='skills__name mb_30 ' variant='h3'>
             SOFT SKILLS
           </Typography>
-          <Grid>
-            <h3>• Communication </h3>
-            <Progress done='80' />
-          </Grid>
-          <Grid>
-            <h3>• Remote work and online Collaboration </h3>
-            <Progress done='70' />
-          </Grid>
-          <Grid>
-            <h3>• Problem Solving </h3>
-            <Progress done='80' />
-          </Grid>
-          <Grid>
-            <h3>• Adaptability </h3>
-            <Progress done='90' />
-          </Grid>
-          <Grid>
-            <h3>• Proactive </h3>
-            <Progress done='90' />
+
+          <Grid container spacing={2}>
+            <Grid xs={12} sm={12} lg={12}>
+              <h3>• Communication </h3>
+              <Progress done='80' />
+            </Grid>
+            <Grid xs={12} sm={12} lg={12}>
+              <h3>• Remote work and online Collaboration </h3>
+              <Progress done='70' />
+            </Grid>
+            <Grid xs={12} sm={12} lg={12}>
+              <h3>• Problem Solving </h3>
+              <Progress done='80' />
+            </Grid>
+            <Grid xs={12} sm={12} lg={12}>
+              <h3>• Adaptability </h3>
+              <Progress done='90' />
+            </Grid>
+            <Grid xs={12} sm={12} lg={12}>
+              <h3>• Proactive </h3>
+              <Progress done='90' />
+            </Grid>
           </Grid>
         </Grid>
       </Grid>
