@@ -176,7 +176,7 @@ const Portfolio = () => {
       </Grid>
       {/* skills */}
       <Grid container>
-        <Grid xs={8} sm={8} lg={6} item className='skills container_shadow'>
+        <Grid xs={10} sm={10} lg={6} item className='skills container_shadow'>
           <Typography className='skills__name mb_30 ' variant='h3'>
             TECH SKILLS
           </Typography>
@@ -205,7 +205,7 @@ const Portfolio = () => {
         </Grid>
         {/* soft skills */}
 
-        <Grid xs={8} sm={8} lg={6} item className='skills container_shadow'>
+        <Grid xs={10} sm={10} lg={6} item className='skills container_shadow'>
           <Typography className='skills__name mb_30 ' variant='h3'>
             SOFT SKILLS
           </Typography>

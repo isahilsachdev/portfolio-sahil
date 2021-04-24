@@ -70,14 +70,14 @@
 
 /* pro */
 .pro {
-  height: 200px;
-  width: 200px;
-  justify-content: center;
-  align-items: center;
+  max-height: 300px;
+  max-width: 200px;
 }
 .pro .pro__image {
   width: 10rem;
-  margin-left: 42px;
+  /* margin-left: 42px; */
+  justify-content: center;
+  align-items: center;
 }
 .pro .pro__name {
   text-align: center;
