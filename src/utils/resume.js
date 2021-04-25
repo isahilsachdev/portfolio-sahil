@@ -109,7 +109,7 @@ export default {
         'Clone of a website named Desktime with html , javascript and css',
       description:
         'A desktop and mobile app for time tracking, attendance tracking, and effective workflow management. Made with the help of Html , Css and JavaScript ',
-      link: 'https://github.com/isahilsachdev/project_desktime',
+      link: 'https://github.com/isahilsachdev/Desktime',
       icons: [
         {
           icon:
