@@ -26,7 +26,7 @@ export default {
       description:
         'Made this clone of website named aljazeera which is a website of arabic news channel funded by qatar government. Made this clone in the build week of masai school with technologies like react , redux and css.',
 
-      link: 'https://github.com/isahilsachdev/Aljazeera',
+      link: 'https://github.com/rohanranjan25061996/hexane-aljeera-clone',
       icons: [
         {
           icon:
@@ -48,7 +48,7 @@ export default {
       description:
         'Meetup is a platform for finding and building local communities. People use Meetup to meet new people, learn new things, find support, get out of their comfort zones, and pursue their passions, together. Made this clone using React , redux , css and different liberaries of react.  ',
 
-      link: 'https://github.com/isahilsachdev/Meetup',
+      link: 'https://github.com/ranjithkumark8/echo_meetup',
       icons: [
         {
           icon:
@@ -69,7 +69,7 @@ export default {
       description:
         'Used react to make this clone and netflix api for collection of shows and displayed trailers with multiple libraries such as movie-trailer and react-youtube.',
 
-      link: 'https://github.com/isahilsachdev/Meetup',
+      link: 'https://github.com/isahilsachdev/clone-netflix',
       icons: [
         {
           icon:
