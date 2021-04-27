@@ -44,7 +44,7 @@
 .projectDialog .projectDialog__vid {
   max-height: 300px;
   width: 100%;
-  object-fit: cover;
+  /* object-fit: cover; */
   object-position: center center;
 }
 

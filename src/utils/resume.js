@@ -22,7 +22,8 @@ export default {
       vid: './aljazeera.mp4',
       image: './aljazeera.png',
       title: 'Aljazeera clone',
-      caption: 'Aljaeera is arabic news website.',
+      caption:
+        'Aljaeera is arabic news website to keep people updated with news .',
       description:
         'Made this clone of website named aljazeera which is a website of arabic news channel funded by qatar government. Made this clone in the build week of masai school with technologies like react , redux and css.',
 
@@ -44,9 +45,9 @@ export default {
       image: './meetup.en.png',
       title: 'Echo Meetup.',
       caption:
-        'Clone of a website Echo meet up to make people make or join meeting easy.',
+        'Meetup clone where people create or join events and social communities.',
       description:
-        'Meetup is a platform for finding and building local communities. People use Meetup to meet new people, learn new things, find support, get out of their comfort zones, and pursue their passions, together. Made this clone using React , redux , css and different liberaries of react.  ',
+        'Meetup is a platform for finding and building local events and communities. People use Meetup to meet new people, learn new things, find support, get out of their comfort zones, and pursue their passions, together. Made this clone using React , redux , css and different liberaries of react.  ',
 
       link: 'https://github.com/ranjithkumark8/echo_meetup',
       icons: [
@@ -65,9 +66,10 @@ export default {
       vid: 'n2.mp4',
       image: './netflix.jpg',
       title: 'Netflix clone.',
-      caption: 'Basic homepage clone of netflix.',
+      caption:
+        'Basic homepage clone of netflix to watch list of shows and trailers.',
       description:
-        'Used react to make this clone and netflix api for collection of shows and displayed trailers with multiple libraries such as movie-trailer and react-youtube.',
+        'Created this individual project , where i have create home and landing page clone of a very famous platform called netflix used react to make this clone and netflix api for collection of shows and displayed trailers with multiple libraries such as movie-trailer and react-youtube.',
 
       link: 'https://github.com/isahilsachdev/clone-netflix',
       icons: [
@@ -108,7 +110,7 @@ export default {
       caption:
         'Clone of a website named Desktime with html , javascript and css',
       description:
-        'A desktop and mobile app for time tracking, attendance tracking, and effective workflow management. Made with the help of Html , Css and JavaScript ',
+        'A desktop and mobile app create using html , css and javascript for time tracking, attendance tracking, and effective workflow management. Made with the help of Html , Css and JavaScript ',
       link: 'https://github.com/isahilsachdev/Desktime',
       icons: [
         {
@@ -121,19 +123,53 @@ export default {
         },
       ],
     },
-    // {
-    //   tag: 'Html',
-    //   image:
-    //     'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwr8P9YUsPoLJl8GwD6zRiPm9zu9BzHNpNuQ&usqp=CAU',
-    //   title: 'write html2 title here',
-    //   caption: 'caption here',
-    //   description: 'write description here',
-    //   icons: [
-    //     { link: 'https://github.com/isahilsachdev', icon: <GitHub /> },
-    //     { link: 'https://github.com/isahilsachdev', icon: <GitHub /> },
-    //     { link: 'https://github.com/isahilsachdev', icon: <GitHub /> },
-    //   ],
-    // },
+  ],
+
+  // extra
+  extra: [
+    {
+      tag: 'Blog',
+      image: './blog1.png',
+      title: 'Meetup blog',
+      caption: 'Blog about the journey of creating meetup clone.',
+
+      link:
+        'https://sahilsachdev-19124.medium.com/meet-up-project-8cab3a7a216a',
+    },
+    {
+      tag: 'Blog',
+      image: './blog2.png',
+      title: 'Gymwolf blog',
+      caption: 'This blog will tell you about build week and gymwolf project.',
+
+      link:
+        'https://sahilsachdev-19124.medium.com/build-week-at-masai-school-642ff7462988',
+    },
+    {
+      tag: 'Certificate',
+      image: './c1.jpg',
+      title: 'Meetup blog',
+      caption: 'Blog about the journey of creating meetup clone.',
+    },
+    {
+      tag: 'Certificate',
+      image: './c2.jpg',
+      title: 'Meetup blog',
+      caption: 'Blog about the journey of creating meetup clone.',
+    },
+
+    {
+      tag: 'Certificate',
+      image: './c3.jpg',
+      title: 'Meetup blog',
+      caption: 'Blog about the journey of creating meetup clone.',
+    },
+    {
+      tag: 'Certificate',
+      image: './c4.jpg',
+      title: 'Meetup blog',
+      caption: 'Blog about the journey of creating meetup clone.',
+    },
   ],
 
   educations: [

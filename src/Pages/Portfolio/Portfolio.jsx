@@ -24,8 +24,10 @@ import './Progress.css';
 import CustomButton from '../../Components/Button/Button';
 import { ReactVideo } from 'reactjs-media';
 const Portfolio = () => {
-  const [tabValue, setTabValue] = React.useState('All');
-  const [projectDialog, setProjectDialog] = React.useState(false);
+  const [tabValue, setTabValue] = React.useState('All'); //for projects
+  const [tabValueTwo, setTabValueTwo] = React.useState('All'); //for extra
+  const [projectDialog, setProjectDialog] = React.useState(false); // for projects
+  const [projectDialogTwo, setProjectDialogTwo] = React.useState(false); // for extra
   return (
     <Grid container className='section pb_45 pt_30 '>
       {/* Title */}
@@ -102,6 +104,84 @@ const Portfolio = () => {
           ))}
         </Grid>
       </Grid>
+
+      {/* Projects 2  */}
+      {/* Title */}
+      <Grid item className='section__title mb_30 top_60'>
+        <span></span>
+        <h6 className='section__title__text'>Extra</h6>
+      </Grid>
+      {/* Tabs */}
+      <Grid item xs={12}>
+        <Tabs
+          value={tabValueTwo}
+          indicatorColor='white'
+          className='customTabs'
+          onChange={(event, newValue) => setTabValueTwo(newValue)}
+        >
+          <Tab
+            label='All'
+            value='All'
+            className={
+              tabValueTwo == 'All'
+                ? 'customTabs__item active'
+                : 'customTabs__item'
+            }
+          />
+          {[...new Set(resume.extra.map((item) => item.tag))].map((tag) => (
+            <Tab
+              label={tag}
+              value={tag}
+              className={
+                tabValueTwo == tag
+                  ? 'customTabs__item active'
+                  : 'customTabs__item '
+              }
+            />
+          ))}
+        </Tabs>
+      </Grid>
+      <Grid item xs={12}>
+        <Grid container spacing={2}>
+          {resume.extra.map((extra) => (
+            <>
+              {tabValueTwo == extra.tag || tabValueTwo == 'All' ? (
+                <Grid item xs={12} sm={6} md={4} lg={4}>
+                  <Grow in timeout={1000}>
+                    <Card
+                      className='customCard container_shadow '
+                      onClick={() => setProjectDialogTwo(extra)}
+                    >
+                      <CardActionArea>
+                        <CardMedia
+                          className='customCard__image'
+                          image={extra.image}
+                          title={extra.title}
+                        />
+                        <CardContent>
+                          <Typography
+                            variant='body2'
+                            className='customCard__title'
+                          >
+                            {extra.title}
+                          </Typography>
+                          <Typography
+                            variant='body2'
+                            className='customCard__caption'
+                          >
+                            {extra.caption}
+                          </Typography>
+                        </CardContent>
+                      </CardActionArea>
+                    </Card>
+                  </Grow>
+                </Grid>
+              ) : null}
+            </>
+          ))}
+        </Grid>
+      </Grid>
+      {/* project2 end */}
       {/* dialog */}
       <Dialog
         fullWidth='true'
@@ -144,6 +224,35 @@ const Portfolio = () => {
           ))}
         </DialogActions>
       </Dialog>
+      {/* dialog of extra */}
+      <Dialog
+        fullWidth='true'
+        className='projectDialog'
+        open={projectDialogTwo}
+        onClose={() => setProjectDialogTwo(false)}
+      >
+        <DialogTitle onClose={() => setProjectDialogTwo(false)}>
+          {projectDialogTwo.title}
+        </DialogTitle>
+
+        <img
+          src={projectDialogTwo.image}
+          alt='project'
+          className='projectDialog__image'
+        />
+
+        {projectDialogTwo.link ? (
+          <a
+            href={projectDialogTwo.link}
+            style={{ textTransform: 'none' }}
+            className='p_30 '
+          >
+            <CustomButton text='Learn more'></CustomButton>
+            <img width='25px' src='./medium.png' alt='' />
+          </a>
+        ) : null}
+      </Dialog>
+      {/* end dialog extra */}
       {/* proficiency */}
       <Grid container className='section pb_45 pt_45 top_30 mb_30 '>
         <Grid item className='section__title mb_30'>
