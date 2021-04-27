@@ -148,27 +148,29 @@ export default {
     {
       tag: 'Certificate',
       image: './c1.jpg',
-      title: 'Meetup blog',
-      caption: 'Blog about the journey of creating meetup clone.',
+      title: 'Math quiz',
+      caption: 'Certificate for first position in math quiz.',
     },
     {
       tag: 'Certificate',
       image: './c2.jpg',
-      title: 'Meetup blog',
-      caption: 'Blog about the journey of creating meetup clone.',
+      title: 'National quiz competition , 2017',
+      caption: 'Won best member of best team in online quiz competition.',
     },
 
     {
       tag: 'Certificate',
       image: './c3.jpg',
-      title: 'Meetup blog',
-      caption: 'Blog about the journey of creating meetup clone.',
+      title: 'Chess championship',
+      caption:
+        'Certificate of participation in open inter school chess championship .',
     },
     {
       tag: 'Certificate',
       image: './c4.jpg',
-      title: 'Meetup blog',
-      caption: 'Blog about the journey of creating meetup clone.',
+      title: 'National Talent hunt exam. ',
+      caption:
+        'Certificate for National talent hunt program by Aakash institute of science.',
     },
   ],
 
