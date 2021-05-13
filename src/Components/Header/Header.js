@@ -56,12 +56,6 @@ const Header = (props) => {
             PORTFOLIO
           </Nav.Link>
         </Nav>
-        <div className='header__right'>
-          {Object.keys(resume.socials).map((key) => (
-            <a href={resume.socials[key].link}>{resume.socials[key].icon}</a>
-          ))}
-          {/* <CustomButton text='Contact Me' icon={<Telegram />} /> */}
-        </div>
       </Navbar.Collapse>
     </Navbar>
   );

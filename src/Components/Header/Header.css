@@ -35,14 +35,3 @@
 .header .header__left {
   margin-right: auto;
 }
-
-.header .header__right {
-  display: flex !important ;
-  align-items: center !important ;
-}
-
-.header .header__right > a > .MuiSvgIcon-root {
-  font-size: 22px !important;
-  margin-right: 12px;
-  color: black;
-}

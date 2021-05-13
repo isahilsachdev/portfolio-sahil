@@ -58,5 +58,6 @@
   width: 100%;
   display: 'flex' !important ;
   justify-content: center;
-  margin-top: 20px;
+  margin: 25px;
+  padding: 25px;
 }

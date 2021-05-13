@@ -28,6 +28,7 @@ export default {
         'Made this clone of website named aljazeera which is a website of arabic news channel funded by qatar government. Made this clone in the build week of masai school with technologies like react , redux and css.',
 
       link: 'https://github.com/rohanranjan25061996/hexane-aljeera-clone',
+
       icons: [
         {
           icon:
@@ -50,6 +51,8 @@ export default {
         'Meetup is a platform for finding and building local events and communities. People use Meetup to meet new people, learn new things, find support, get out of their comfort zones, and pursue their passions, together. Made this clone using React , redux , css and different liberaries of react.  ',
 
       link: 'https://github.com/ranjithkumark8/echo_meetup',
+      link2:
+        'https://sahilsachdev-19124.medium.com/meet-up-project-8cab3a7a216a',
       icons: [
         {
           icon:
@@ -140,6 +143,8 @@ export default {
       description:
         'A desktop and mobile app create using html , css and javascript for time tracking, attendance tracking, and effective workflow management. Made with the help of Html , Css and JavaScript ',
       link: 'https://github.com/isahilsachdev/Desktime',
+      link2:
+        'https://sahilsachdev-19124.medium.com/build-week-at-masai-school-642ff7462988',
       icons: [
         {
           icon:
@@ -153,61 +158,12 @@ export default {
     },
   ],
 
-  // extra
-  extra: [
-    {
-      tag: 'Blog',
-      image: './blog1.png',
-      title: 'Meetup blog',
-      caption: 'Blog about the journey of creating meetup clone.',
-
-      link:
-        'https://sahilsachdev-19124.medium.com/meet-up-project-8cab3a7a216a',
-    },
-    {
-      tag: 'Blog',
-      image: './blog2.png',
-      title: 'Gymwolf blog',
-      caption: 'This blog will tell you about build week and gymwolf project.',
-
-      link:
-        'https://sahilsachdev-19124.medium.com/build-week-at-masai-school-642ff7462988',
-    },
-    {
-      tag: 'Certificate',
-      image: './c1.jpg',
-      title: 'Math quiz',
-      caption: 'Certificate for first position in math quiz.',
-    },
-    {
-      tag: 'Certificate',
-      image: './c2.jpg',
-      title: 'National quiz competition , 2017',
-      caption: 'Won best member of best team in online quiz competition.',
-    },
-
-    {
-      tag: 'Certificate',
-      image: './c3.jpg',
-      title: 'Chess championship',
-      caption:
-        'Certificate of participation in open inter school chess championship .',
-    },
-    {
-      tag: 'Certificate',
-      image: './c4.jpg',
-      title: 'National Talent hunt exam. ',
-      caption:
-        'Certificate for National talent hunt program by Aakash institute of science.',
-    },
-  ],
-
   educations: [
     {
       title: 'Masai School',
       date: 'Oct 2020-May 2021',
       description:
-        'Full time 30 weeks Mern stack development course where i learned different frontend and backendend technologies with complex problem solving of data structures and algorithm .',
+        'Full time 30 weeks Full stack development course where i learned JavaScript and its various frontend and backend technologies along side data structures and algorithm .',
     },
     {
       title: 'Bachelor of Commerce (B.Com)',

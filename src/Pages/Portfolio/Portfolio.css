@@ -72,17 +72,17 @@
 /* pro */
 .pro {
   max-height: 300px;
-  max-width: 200px;
 }
 .pro .pro__image {
   width: 10rem;
-  /* margin-left: 42px; */
-  justify-content: center;
-  align-items: center;
+  margin-left: 30% !important ;
+  justify-content: center !important ;
+  align-items: center !important ;
 }
 .pro .pro__name {
   text-align: center;
   font-weight: 500px !important ;
+  width: 100%;
 }
 .pro .pro__description {
   text-align: center;

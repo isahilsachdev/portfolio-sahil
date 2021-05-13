@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Ranchers&display=swap');
+
+.center {
+  display: flex !important ;
+  justify-content: center !important ;
+  align-items: center !important ;
+}
+.main {
+  height: fit-content !important ;
+  width: 100% !important ;
+}
+.box {
+  width: 140px !important ;
+  height: 140px !important ;
+  position: relative !important ;
+  margin: 0 20px !important ;
+  flex-wrap: wrap !important ;
+  margin: 10px 20px !important ;
+}
+.icon-box,
+.inner-box {
+  position: absolute !important ;
+  width: 100% !important ;
+  height: 100% !important ;
+  color: white !important ;
+  border-radius: 10px !important ;
+  cursor: pointer !important ;
+  transition: all 0.4s !important ;
+}
+
+.box:hover .icon-box {
+  transform: translateY(-30px) !important ;
+}
+.inner-box {
+  background: #fffeff !important ;
+  align-items: flex-end !important ;
+  justify-content: center !important ;
+  z-index: -1 !important ;
+  color: rgb(41, 41, 41) !important ;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.082) !important ;
+}
+.inner-box p {
+  font-family: 'Berkshire Swash', cursive;
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
