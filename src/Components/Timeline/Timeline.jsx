@@ -6,7 +6,6 @@ import TimelineConnector from '@material-ui/lab/TimelineConnector';
 import TimelineContent from '@material-ui/lab/TimelineContent';
 import TimelineDot from '@material-ui/lab/TimelineDot';
 import { Typography } from '@material-ui/core';
-import { WorkIcon } from '@material-ui/icons';
 import './Timeline.css';
 export default function CustomTimeline({ title, icon, children }) {
   return (

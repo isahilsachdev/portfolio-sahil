@@ -4,14 +4,7 @@ import './Profile.css';
 import './icons.css';
 import '../../App.css';
 import CustomTimeline, { CustomTimelineSeparator } from '../Timeline/Timeline';
-import {
-  GetAppSharp,
-  GitHub,
-  LinkedIn,
-  PersonOutline,
-  PersonOutlineOutlined,
-} from '@material-ui/icons';
-import FacebookIcon from '@material-ui/icons/Facebook';
+import { GetAppSharp } from '@material-ui/icons';
 import FaceIcon from '@material-ui/icons/Face';
 import PhoneIphoneIcon from '@material-ui/icons/PhoneIphone';
 import EmailIcon from '@material-ui/icons/Email';
@@ -19,32 +12,9 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import TimelineContent from '@material-ui/lab/TimelineContent';
 import TimelineItem from '@material-ui/lab/TimelineItem';
-import resumeData from '../../utils/resume';
+
 import CustomButton from '../Button/Button';
 import Typical from 'react-typical';
-
-const CustomTimelineItem = ({ title, text, link, icon }) => {
-  return (
-    <TimelineItem>
-      <CustomTimelineSeparator />
-      <TimelineContent className='timeline__content'>
-        {link ? (
-          <Typography className='timeline__text'>
-            <span>{title} : </span>
-            <a target='_blank' href={link}>
-              {text}{' '}
-            </a>
-          </Typography>
-        ) : (
-          <Typography className='timeline__text'>
-            <span>{title} : </span>
-            {text}
-          </Typography>
-        )}
-      </TimelineContent>
-    </TimelineItem>
-  );
-};
 
 const Profile = () => {
   const openInNewTab = (url) => {
@@ -78,10 +48,10 @@ const Profile = () => {
 
       <div className='profile__info '>
         <div className='box '>
-          <a target='_blank' href='#' data-text='Sahil Sachdev'>
+          <a target='_blank' href='' data-text='Sahil Sachdev'>
             <FaceIcon />
           </a>
-          <a target='_blank' href='#' data-text='+91-7737191046'>
+          <a target='_blank' href='' data-text='+91-7737191046'>
             <PhoneIphoneIcon />
           </a>
           <a

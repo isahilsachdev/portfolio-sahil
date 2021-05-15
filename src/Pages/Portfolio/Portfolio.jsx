@@ -15,7 +15,7 @@ import {
   Tabs,
   Typography,
 } from '@material-ui/core';
-
+import BorderColorIcon from '@material-ui/icons/BorderColor';
 import { GitHub, Assignment } from '@material-ui/icons';
 // pages
 import resume from '../../utils/resume';
@@ -26,6 +26,7 @@ import TechSkills from './TechSkills';
 import { ReactVideo } from 'reactjs-media';
 
 import SoftSkills2 from './SoftSkills2';
+import Pro from './Pro';
 const Portfolio = () => {
   const [tabValue, setTabValue] = React.useState('All'); //for projects
   const [projectDialog, setProjectDialog] = React.useState(false); // for projects
@@ -142,11 +143,20 @@ const Portfolio = () => {
           </a>
           {projectDialog.link2 ? (
             <a
-              href={projectDialog.link}
+              href={projectDialog.link2}
               style={{ textTransform: 'none' }}
               target='_blank'
             >
-              <CustomButton text='Blog' icon={<Assignment />} />
+              <CustomButton text='Blog' icon={<BorderColorIcon />} />
+            </a>
+          ) : null}
+          {projectDialog.link3 ? (
+            <a
+              href={projectDialog.link3}
+              style={{ textTransform: 'none' }}
+              target='_blank'
+            >
+              <CustomButton text='Visit Project' icon={<Assignment />} />
             </a>
           ) : null}
         </div>
@@ -163,50 +173,23 @@ const Portfolio = () => {
       </Dialog>
 
       {/* proficiency */}
-      <Grid container className='section pb_45 pt_45 top_30 mb_30 '>
-        <Grid item className='section__title mb_30'>
-          <span></span>
-          <h6 className='section__title__text'>Proficiency</h6>
-        </Grid>
-        {/* <Grid item> */}
-        <Grid container xs={12}>
-          {resume.proficiency.map((pro) => (
-            <Grid item xs={12} sm={6} lg={3} spacing={2}>
-              <Grid container className='pro container_shadow '>
-                <Grid item className='pro__div__image'>
-                  <img
-                    style={{ margin: 'auto' }}
-                    src={pro.image}
-                    alt='proficiency'
-                    className='pro__image'
-                  />
-                </Grid>
-                <Typography variant='h5' className='pro__name'>
-                  {pro.name}
-                </Typography>
-                <br />
-                <Typography className='pro__description' variant='body2'>
-                  {pro.description}
-                </Typography>
-              </Grid>
-            </Grid>
-          ))}
-        </Grid>
-        {/* </Grid> */}
-      </Grid>
+      <Pro />
+
       {/* skills */}
       <Grid container>
-        <Grid item className='section__title mb_30 '>
+        <Grid item className='section__title mb_30 top_60'>
           <span></span>
           <h6 className='section__title__text'>Technological Skills </h6>
         </Grid>
+        {/* tech */}
         <TechSkills />
 
         {/* soft skills */}
-        <Grid item className='section__title mb_30 '>
+        <Grid item className='section__title mb_30 top_60'>
           <span></span>
           <h6 className='section__title__text'>Soft Skills </h6>
         </Grid>
+        {/* soft */}
         <SoftSkills2 />
       </Grid>
     </Grid>

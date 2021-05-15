@@ -1,22 +1,9 @@
 import React from 'react';
 import './Header.css';
-import {
-  Button,
-  Form,
-  FormControl,
-  Nav,
-  Navbar,
-  NavDropdown,
-} from 'react-bootstrap';
+import { Nav, Navbar } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Link, NavLink, withRouter } from 'react-router-dom';
-import {
-  HomeRounded,
-  LabelImportantOutlined,
-  Telegram,
-} from '@material-ui/icons';
-import resume from '../../utils/resume';
-import CustomButton from '../Button/Button';
+import { NavLink, withRouter } from 'react-router-dom';
+import { HomeRounded } from '@material-ui/icons';
 
 const Header = (props) => {
   const pathName = props?.location?.pathname;
@@ -41,7 +28,7 @@ const Header = (props) => {
             as={NavLink}
             to='/'
             className={
-              pathName == '/' ? 'header__link__active' : 'header__link'
+              pathName === '/' ? 'header__link__active' : 'header__link'
             }
           >
             ABOUT
@@ -50,7 +37,9 @@ const Header = (props) => {
             as={NavLink}
             to='/portfolio'
             className={
-              pathName == '/portfolio' ? 'header__link__active' : 'header__link'
+              pathName === '/portfolio'
+                ? 'header__link__active'
+                : 'header__link'
             }
           >
             PORTFOLIO

@@ -12,7 +12,7 @@ import {
 import { Grid } from '@material-ui/core';
 const techskills = [
   {
-    name: '• React • Redux',
+    name: '• React   • Redux',
     bg: '#2ccce4',
     icon: <GrReactjs size='9em' />,
   },
@@ -22,19 +22,19 @@ const techskills = [
     icon: <DiJavascript size='9em' />,
   },
   {
-    name: '• NodeJs • ExpressJs ',
+    name: '• NodeJs   • ExpressJs ',
     bg: '#8BC34A',
     icon2: <DiNodejs size='9em' />,
   },
   {
-    name: '• HTML5 • CSS3',
+    name: '• HTML5   • CSS3',
     bg: '#b80000',
     icon: <DiHtml5 size='5em' />,
     icon2: <DiCss3 size='5em' />,
   },
 
   {
-    name: '• MongoDB • MySQl',
+    name: '• MongoDB  • MySQl',
     bg: '#FF6F00',
     icon: <DiMongodb size='5em' />,
     icon2: <GrMysql size='5em' />,
@@ -56,7 +56,7 @@ const TechSkills = () => {
               <div style={{ paddingRight: '5px' }}> {a.icon}</div>
               {a.icon2 && <div> {a.icon2}</div>}
             </div>
-            <div display='block' className='inner-box center'>
+            <div className='inner-box center'>
               <p>{a.name}</p>
             </div>
           </Grid>

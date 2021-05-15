@@ -1,17 +1,14 @@
-import { Grid, TextField, Typography } from '@material-ui/core';
+import { Grid, Typography } from '@material-ui/core';
 import React from 'react';
 import resume from '../../utils/resume';
 import './Resume.css';
 import '../../App.css';
-import Progress from '../Portfolio/Progress';
-import { School, Send } from '@material-ui/icons';
+import { School } from '@material-ui/icons';
 import CustomTimeline, {
   CustomTimelineSeparator,
 } from '../../Components/Timeline/Timeline';
 import TimelineItem from '@material-ui/lab/TimelineItem';
 import TimelineContent from '@material-ui/lab/TimelineContent';
-import CustomButton from '../../Components/Button/Button';
-import emailjs from 'emailjs-com';
 import ContactUs from './ContactUs';
 
 const Resume = () => {

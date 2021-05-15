@@ -8,7 +8,7 @@ const SoftSkills2 = () => {
       <div className='btn '>Proactive</div>
       <div className='btn '>Team Player</div>
       <div className='btn '>Adaptability</div>
-      <div className='btn '>Remote work and collaboration</div>
+      <div className='btn '>Enthusiasm</div>
     </div>
   );
 };
