@@ -48,10 +48,18 @@ const Profile = () => {
 
       <div className='profile__info '>
         <div className='box '>
-          <a target='_blank' href='' data-text='Sahil Sachdev'>
+          <a
+            // target='_blank'
+            href='javascript:void(0)'
+            data-text='Sahil Sachdev'
+          >
             <FaceIcon />
           </a>
-          <a target='_blank' href='' data-text='+91-7737191046'>
+          <a
+            target='_blank'
+            href='tel:+917737191046'
+            data-text='+91-7737191046'
+          >
             <PhoneIphoneIcon />
           </a>
           <a
