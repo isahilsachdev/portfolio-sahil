@@ -79,7 +79,7 @@ const Profile = () => {
         <br />
       </div>
       <div
-        style={{ display: 'flex' }}
+        // style={{ display: 'flex' }}
         onClick={() =>
           openInNewTab('https://pdfhost.io/v/H.icZGzOu_sahilresumepdf.pdf')
         }

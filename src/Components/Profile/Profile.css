@@ -55,9 +55,10 @@
 }
 
 .profile .btn__container {
-  width: 100%;
-  display: 'flex' !important ;
-  justify-content: center;
-  margin: 25px 25px 25px 15px;
-  padding: 25px 25px 25px 15px;
+  width: fit-content;
+  align-items: center !important ;
+  justify-content: center !important ;
+
+  margin: auto !important ;
+  padding: 25px 25px 25px 15px !important ;
 }
