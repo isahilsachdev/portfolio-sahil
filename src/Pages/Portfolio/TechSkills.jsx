@@ -40,7 +40,7 @@ const techskills = [
     icon2: <GrMysql size='5em' />,
   },
   {
-    name: '•Material-UI •Bootstrap',
+    name: '•M-UI •Bootstrap',
     bg: '#c32aa3',
     icon: <SiMaterialUi size='3em' />,
     icon2: <SiBootstrap size='4em' />,

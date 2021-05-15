@@ -46,8 +46,8 @@
 
 .inner-box p {
   font-family: 'Berkshire Swash', cursive !important ;
-  font-size: 1.2rem !important ;
-  margin-bottom: 5px !important ;
+  font-size: 1rem !important ;
+  margin-bottom: 2px !important ;
 }
 
 .box:hover .inner-box {

@@ -31,6 +31,7 @@
   border-radius: 50px;
   width: 150px;
   height: 100%;
+  /*  did display block to make it visible without hovering */
   display: block;
   display: flex;
   justify-content: center;

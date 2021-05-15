@@ -167,7 +167,7 @@ const Portfolio = () => {
         </DialogContent>
         <DialogActions className='projectDialog__actions'>
           {projectDialog?.icons?.map((icon) => (
-            <img width='25px' src={icon.icon} alt='' />
+            <img width='25px' src={icon.icon} alt='apps' />
           ))}
         </DialogActions>
       </Dialog>
