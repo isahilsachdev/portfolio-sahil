@@ -76,6 +76,7 @@ const resume = {
         'Created this individual project , where i have create home and landing page clone of a very famous platform called netflix used react to make this clone and netflix api for collection of shows and displayed trailers with multiple libraries such as movie-trailer and react-youtube.',
 
       link: 'https://github.com/isahilsachdev/clone-netflix',
+      link3: 'https://netflix-sahil.netlify.app/',
       icons: [
         {
           icon:
@@ -139,6 +140,7 @@ const resume = {
     {
       tag: 'Html',
       image: './desktime.jpeg',
+      vid: './desktimevid.mp4',
       title: 'Desktime clone',
       caption:
         'Clone of a website named Desktime with html , javascript and css',

@@ -23,6 +23,7 @@
   border-radius: 25px 0;
   color: white;
 }
+/* css bwlow is not necessary */
 .btn::before {
   content: '';
   position: absolute;

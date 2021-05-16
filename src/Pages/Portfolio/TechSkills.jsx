@@ -14,36 +14,36 @@ const techskills = [
   {
     name: '• React   • Redux',
     bg: '#2ccce4',
-    icon: <GrReactjs size='9em' />,
+    icon: <GrReactjs size='10em' />,
   },
   {
     name: '• JavaScipt',
     bg: '#0D47A1',
-    icon: <DiJavascript size='9em' />,
+    icon: <DiJavascript size='10em' />,
   },
   {
     name: '• NodeJs   • ExpressJs ',
     bg: '#8BC34A',
-    icon2: <DiNodejs size='9em' />,
+    icon2: <DiNodejs size='10em' />,
   },
   {
     name: '• HTML5   • CSS3',
     bg: '#b80000',
-    icon: <DiHtml5 size='5em' />,
-    icon2: <DiCss3 size='5em' />,
+    icon: <DiHtml5 size='6em' />,
+    icon2: <DiCss3 size='6em' />,
   },
 
   {
     name: '• MongoDB  • MySQl',
     bg: '#FF6F00',
-    icon: <DiMongodb size='5em' />,
-    icon2: <GrMysql size='5em' />,
+    icon: <DiMongodb size='6em' />,
+    icon2: <GrMysql size='6em' />,
   },
   {
     name: '•M-UI •Bootstrap',
     bg: '#c32aa3',
-    icon: <SiMaterialUi size='3em' />,
-    icon2: <SiBootstrap size='4em' />,
+    icon: <SiMaterialUi size='5em' />,
+    icon2: <SiBootstrap size='5em' />,
   },
 ];
 const TechSkills = () => {

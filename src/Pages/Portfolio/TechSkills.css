@@ -7,8 +7,8 @@
 }
 
 .box {
-  width: 140px !important ;
-  height: 140px !important ;
+  width: 160px !important ;
+  height: 160px !important ;
   position: relative !important ;
   margin: 0 20px !important ;
   flex-wrap: wrap !important ;
@@ -47,7 +47,7 @@
 .inner-box p {
   font-family: 'Berkshire Swash', cursive !important ;
   font-size: 1rem !important ;
-  margin-bottom: 2px !important ;
+  margin-bottom: 0px !important ;
 }
 
 .box:hover .inner-box {
