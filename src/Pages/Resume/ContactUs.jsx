@@ -4,8 +4,41 @@ import { Grid, TextField } from '@material-ui/core';
 
 import './ContactUs.css';
 import { Send } from '@material-ui/icons';
+// import { Alert } from './SuccessAlert';
+// import React from 'react';
+import Button from '@material-ui/core/Button';
+import Snackbar from '@material-ui/core/Snackbar';
+import MuiAlert from '@material-ui/lab/Alert';
+import { makeStyles } from '@material-ui/core/styles';
+
+export function Alert(props) {
+  return <MuiAlert elevation={6} variant='filled' {...props} />;
+}
+
+const useStyles = makeStyles((theme) => ({
+  root: {
+    width: '100%',
+    '& > * + *': {
+      marginTop: theme.spacing(8),
+    },
+  },
+}));
 
 export default function ContactUs() {
+  const classes = useStyles();
+  const [open, setOpen] = React.useState(false);
+
+  const handleClick = () => {
+    setOpen(true);
+  };
+
+  const handleClose = (event, reason) => {
+    if (reason === 'clickaway') {
+      return;
+    }
+
+    setOpen(false);
+  };
   function sendEmail(e) {
     e.preventDefault();
 
@@ -18,7 +51,9 @@ export default function ContactUs() {
       )
       .then(
         (result) => {
-          alert('Your mail is sent , you will get a response ASAP.');
+          handleClick();
+          // <Alert />;
+          // alert('Your mail is sent , you will get a response ASAP.');
         },
         (error) => {
           console.log(error.text);
@@ -52,9 +87,22 @@ export default function ContactUs() {
               value='Submit'
               className='custom__btn__input'
             />
-            <span className='custom__btn__icon'>
-              <Send />
-            </span>
+            <div className='custom__btn__container'>
+              <span className='custom__btn__icon'>
+                <Send />
+              </span>
+            </div>
+            <div className={classes.root}>
+              <Snackbar
+                open={open}
+                autoHideDuration={3000}
+                onClose={handleClose}
+              >
+                <Alert onClose={handleClose} severity='success'>
+                  Sahil has received your mail and will return to you ASAP.
+                </Alert>
+              </Snackbar>
+            </div>
           </div>
         </Grid>
       </Grid>

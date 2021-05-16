@@ -4,7 +4,7 @@ import './Profile.css';
 import './icons.css';
 import '../../App.css';
 import CustomTimeline, { CustomTimelineSeparator } from '../Timeline/Timeline';
-import { GetAppSharp } from '@material-ui/icons';
+import { GetAppSharp, Send } from '@material-ui/icons';
 import FaceIcon from '@material-ui/icons/Face';
 import PhoneIphoneIcon from '@material-ui/icons/PhoneIphone';
 import EmailIcon from '@material-ui/icons/Email';
@@ -89,7 +89,9 @@ const Profile = () => {
       <div
         // style={{ display: 'flex' }}
         onClick={() =>
-          openInNewTab('https://pdfhost.io/v/H.icZGzOu_sahilresumepdf.pdf')
+          openInNewTab(
+            'https://drive.google.com/file/d/1DwML4SflYI_Fnfz-bTSLYQHBNN-eLo3t/view?usp=sharing'
+          )
         }
         className='btn__container'
       >
