@@ -90,7 +90,7 @@ const Profile = () => {
         // style={{ display: 'flex' }}
         onClick={() =>
           openInNewTab(
-            'https://drive.google.com/file/d/1LbXJAL_0NiHUV7GlWhXukHPxvnL8PMZ5/view?usp=sharing'
+            'https://drive.google.com/file/d/1bhTztWhHOc94aR3A4tCuoukodUDrMbaA/view?usp=sharing'
           )
         }
         className='btn__container'
