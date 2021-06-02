@@ -28,6 +28,7 @@ const resume = {
         'Made this clone of website named aljazeera which is a website of arabic news channel funded by qatar government. Made this clone in the build week of masai school with technologies like react , redux and css.',
 
       link: 'https://github.com/rohanranjan25061996/hexane-aljeera-clone',
+      link3: 'https://aljazeera.vercel.app/',
 
       icons: [
         {
