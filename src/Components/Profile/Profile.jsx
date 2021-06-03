@@ -75,7 +75,7 @@ const Profile = () => {
             data-text='GitHub'
           >
             <GitHubIcon />
-          </a> 
+          </a>
           <a
             target='_blank'
             href='https://www.linkedin.com/in/sahil-sachdev-8381541b1/'
@@ -90,7 +90,7 @@ const Profile = () => {
         // style={{ display: 'flex' }}
         onClick={() =>
           openInNewTab(
-            'https://drive.google.com/file/d/1bhTztWhHOc94aR3A4tCuoukodUDrMbaA/view?usp=sharing'
+            'https://drive.google.com/file/d/1HlsuhNdlQtwziTt3iw35iKpbweFFjSQx/view?usp=sharing'
           )
         }
         className='btn__container'
