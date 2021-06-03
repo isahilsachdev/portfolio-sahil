@@ -49,8 +49,6 @@ export default function ContactUs() {
       .then(
         (result) => {
           handleClick();
-          // <Alert />;
-          // alert('Your mail is sent , you will get a response ASAP.');
         },
         (error) => {
           console.log(error.text);

@@ -75,7 +75,7 @@ const Profile = () => {
             data-text='GitHub'
           >
             <GitHubIcon />
-          </a>
+          </a> 
           <a
             target='_blank'
             href='https://www.linkedin.com/in/sahil-sachdev-8381541b1/'
