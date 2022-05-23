@@ -41,7 +41,7 @@ export default function ContactUs() {
 
     emailjs
       .sendForm(
-        'service_ryeabq6',
+        'service_jcxxj5c',
         'template_fyu3kgm',
         e.target,
         'user_JItjlaaC39J9N5PDeJYG9'
