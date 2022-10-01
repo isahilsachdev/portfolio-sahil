@@ -150,15 +150,6 @@ const Portfolio = () => {
               <CustomButton text='Blog' icon={<BorderColorIcon />} />
             </a>
           ) : null}
-          {projectDialog.link3 ? (
-            <a
-              href={projectDialog.link3}
-              style={{ textTransform: 'none' }}
-              target='_blank'
-            >
-              <CustomButton text='Visit Project' icon={<Assignment />} />
-            </a>
-          ) : null}
         </div>
         <DialogContent>
           <Typography className='projectDialog__description'>

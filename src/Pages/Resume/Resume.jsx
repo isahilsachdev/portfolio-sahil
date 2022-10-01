@@ -9,6 +9,8 @@ import CustomTimeline, {
 } from '../../Components/Timeline/Timeline';
 import TimelineItem from '@material-ui/lab/TimelineItem';
 import TimelineContent from '@material-ui/lab/TimelineContent';
+import EmailIcon from '@material-ui/icons/Email';
+import PhoneIphoneIcon from '@material-ui/icons/PhoneIphone';
 import ContactUs from './ContactUs';
 
 const Resume = () => {
@@ -57,7 +59,7 @@ const Resume = () => {
             </Grid>
             {/* second */}
             <Grid item sm={12} md={6}>
-              <CustomTimeline title='Interests' icon={<School />}>
+              <CustomTimeline title='Interests' icon={<PhoneIphoneIcon />}>
                 {resume.interest.map((education) => (
                   <TimelineItem>
                     <CustomTimelineSeparator />
@@ -74,6 +76,92 @@ const Resume = () => {
                     </TimelineContent>
                   </TimelineItem>
                 ))}
+              </CustomTimeline>
+            </Grid>
+            {/* third */}
+            <Grid item sm={12} md={12}>
+              <CustomTimeline title='Experience' icon={<EmailIcon />}>
+                  <TimelineItem>
+                    <CustomTimelineSeparator />
+                    <div style={{ paddingLeft: "16px" }}>
+                      Inai Technologies (June 2021 - Present)
+                    </div>
+                  </TimelineItem>
+                  <TimelineItem>
+                    <CustomTimelineSeparator />
+                  <TimelineContent className='timeline__content'>
+                    <Typography
+                      variant='body2'
+                      className='timeline__description'
+                    >
+                      Technologies - ReactJS, JavaScript, HTML, CSS, Python (Fast API),
+                      NodeJS (Express JS), Bootstrap, Reactstrap, Scss, Postman and
+                      GitHub.
+                    </Typography>
+                  </TimelineContent>
+                  </ TimelineItem>
+                  <TimelineItem>
+                    <CustomTimelineSeparator />
+                  <TimelineContent className='timeline__content'>
+                    <Typography
+                      variant='body2'
+                      className='timeline__description'
+                    >
+                      Worked on Inai Dashboard ( ReactJS ), Dashboard is used by our
+                      customers to add and configure integrations for their customers.
+                      Developed more than 5 pages and wrote unit tests.
+                    </Typography>
+                  </TimelineContent>
+                  </ TimelineItem>
+                  <TimelineItem>
+                    <CustomTimelineSeparator />
+                  <TimelineContent className='timeline__content'>
+                    <Typography
+                      variant='body2'
+                      className='timeline__description'
+                    >
+                      Worked on Inai Checkout ( HTML5/CSS3 and Node.js ), which is
+                      used by our merchant's customer to pay using integrated payment
+                      methods.
+                    </Typography>
+                  </TimelineContent>
+                  </ TimelineItem>
+                  <TimelineItem>
+                    <CustomTimelineSeparator />
+                  <TimelineContent className='timeline__content'>
+                    <Typography
+                      variant='body2'
+                      className='timeline__description'
+                    >
+                      Also, worked a bit on integrations and backend projects (Python and
+                      Fast API) to integrate with different Payment Providers.
+                    </Typography>
+                  </TimelineContent>
+                  </ TimelineItem>
+                  <TimelineItem>
+                    <CustomTimelineSeparator />
+                  <TimelineContent className='timeline__content'>
+                    <Typography
+                      variant='body2'
+                      className='timeline__description'
+                    >
+                      Maintained reusable code and unit tests for all changes, followed
+                      componentization.
+                    </Typography>
+                  </TimelineContent>
+                  </ TimelineItem>
+                  <TimelineItem>
+                    <CustomTimelineSeparator />
+                  <TimelineContent className='timeline__content'>
+                    <Typography
+                      variant='body2'
+                      className='timeline__description'
+                    >
+                      Coordinated with different teams, lead few sprints, and worked in
+                      agile methodology
+                    </Typography>
+                  </TimelineContent>
+                  </ TimelineItem>
               </CustomTimeline>
             </Grid>
           </Grid>
